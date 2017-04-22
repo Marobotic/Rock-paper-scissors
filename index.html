@@ -1,30 +1,39 @@
 <html>
 
 <head>
-	<script src="game_script.js"></script>
+	<script src="rainbow-stuff-happens-here.js"></script>
+	<script src="jquery-3.2.1.min.js"></script>
 	<title> Rock Paper Scissors</title>
-	<link rel="stylesheet" href="style-and-rainbows.css"
+	<link rel="stylesheet" href="style-and-rainbows.css">
 </head>
 
 	<!-- onLoad function to solve some issues-->
 <body onload="Loading();">
-	<!-- Adding P's with Default value of "Undefined"-->
+
+	
 
 <div id="block_color" class="result_color_block"></div>
 
+	<!-- Adding P's with Default value of "Undefined"-->
 <div class="white_text">
-	<p id="p1" class="player">Undefined</p>
-	<p id="com" class="computer">Undefined</p>
+	<p id="p1" class="player"></p>
+	<p id="com" class="computer"></p>
 </div>
 
 <div  class="result_block">
-	<p id="end_game_text" class="result_text">Game Result: </p>
-	<p id="end_game" class="result">Undefined</p>	
+	<p id="end_game" class="result"></p>	
 </div>
 <!-- Unique text for end result-->
 
-<!-- Adding Regenerate Button because who needs refreshing ha?-->
-	<button onclick="Loading()" class="regenerate_btn">Regenrate</button>
+
+<div class="game_btns"> 
+<button id="Rock_move" class="Rock_move"> Rock</button>
+	<button id="Paper_move" class="Paper_move">Paper </button>
+	<button id="Scissor_move" class="Scissor_move"> Scissors</button>
+
+	</div>
+	<!-- Adding Regenerate Button because who needs refreshing ha?-->
+	<button onclick="Loading()" class="regenerate_btn" id="regenerate_btn" disabled="disabled">Regenrate</button>
 </body>
 
 </html>
