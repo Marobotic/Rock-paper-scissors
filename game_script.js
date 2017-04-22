@@ -1,10 +1,11 @@
+//Turned off but kept if is needed for later!
+
 function Loading()
 {
 
 // Defining Players
 var Comp = makeyourmove();
 var z = makeyourmove();
-
 
 function makeyourmove()
 {
@@ -24,7 +25,22 @@ function makeyourmove()
 return move;
 }
 
+$('#Rock_move').click(function(){
+z = "Rock";
+p1= "Rock"
+});
 
+
+$('#Paper_move').click(function(){
+// Add code here
+z = "Paper";
+p1= "Paper"
+});
+$('#Scissor_move').click(function(){
+// Add code here
+z = "Scissor";
+p1 ="Scissor"
+});
 
 //Result Functions
 function Rules(player, comp)
