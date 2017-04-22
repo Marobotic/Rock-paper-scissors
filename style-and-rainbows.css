@@ -3,21 +3,23 @@ body {
 }
 
 @font-face {
-  font-family: Wasteoftime;
-	  src: url(Wasteoftime.ttf);
+    font-family: Wasteoftime;
+    src: url(Wasteoftime.ttf);
 }
+
 @font-face {
-  font-family: Morningtype;
-	  src: url(Morningtype.ttf);
+    font-family: Morningtype;
+    src: url(Morningtype.ttf);
 }
-.white_text{
+
+.white_text {
     color: #FFFFFF;
     font-size: 60px;
-     font-family: Morningtype;
+    font-family: Morningtype;
 }
 
 .player {
-	position: fixed;
+    position: fixed;
     left: 50;
     top: 10%;
     padding-left: 10px;
@@ -27,73 +29,81 @@ body {
     position: fixed;
     right: 50;
     top: 10%;
-     padding-right: 10px;
+    padding-right: 10px;
 }
 
-.result_text{
+.result_text {
     text-align: center;
     font-size: 60px;
     color: #FFFFFF;
     margin-top: -125px;
     font-family: Morningtype;
 }
-.result{
-	text-align: center;
-	font-size: 60px;
+
+.result {
+    text-align: center;
+    font-size: 60px;
     margin-top: 0px;
     font-family: Wasteoftime;
 }
+
 .result_block {
-    background-color: #36c9d8; 
+    background-color: #36c9d8;
     position: absolute;
     left: 0;
     top: 40%;
     width: 100%;
     height: 70px;
 }
+
 .result_color_block {
-    background-color: #36c9d8; 
+    background-color: #36c9d8;
     position: fixed;
     left: 20%;
     top: 60%;
     width: 100px;
     height: 100px;
 }
-.regenerate_btn{
+
+.auto {
     position: fixed;
     top: 70%;
     right: 10%;
     font-size: 40px;
     width: 250px;
     height: 100px;
-    display:table-cell; vertical-align:middle
-    
+    display: table-cell;
+    vertical-align: middle
 }
-.Rock_move{
- font-size: 40px;
-    width: 250px;
-    height: 100px;
-    display:table-cell; vertical-align:middle
 
-}
-.Paper_move{
- font-size: 40px;
+.Rock_move {
+    font-size: 40px;
     width: 250px;
     height: 100px;
-    display:table-cell; vertical-align:middle
+    display: table-cell;
+    vertical-align: middle
 }
-.Scissor_move{
+
+.Paper_move {
+    font-size: 40px;
+    width: 250px;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.Scissor_move {
     width: 250px;
     font-size: 40px;
     height: 100px;
-    display:table-cell; vertical-align:middle
+    display: table-cell;
+    vertical-align: middle
 }
 
-.game_btns{
+.game_btns {
     position: fixed;
     bottom: 3%;
     left: 5%;
-    display:table;
-    margin-right:5px;
-
+    display: table;
+    margin-right: 5px;
 }
